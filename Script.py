@@ -106,6 +106,7 @@ class script(object):
     
 Gʀᴏᴜᴘ = {}
 Iᴅ = <code>{}</code>
+Group link - {}
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 """
