@@ -1370,7 +1370,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)
                     ],
                     [
-                        InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
+                        InlineKeyboardButton('📌 Jᴏɪɴ Fɪʟᴇs Uᴘᴅᴀᴛᴇꜱ 📌', url=UPDATE_CHNL_LNK)
                     ]
                 ])
             )
@@ -1405,25 +1405,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🔰 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                    InlineKeyboardButton(' Hᴇʟᴘ 📢', callback_data='help'),
+                    InlineKeyboardButton(' Aʙᴏᴜᴛ 📖', callback_data='about')
                 ],[
                     InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                     InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ Hᴀɪ Bᴀʙʏ 🎟', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
         if curr_time < 12:
-            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞" 
+            gtxt = "Gᴏᴏᴅ Mᴏʀɴɪɴɢ 🌞" 
         elif curr_time < 17:
-            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌓" 
+            gtxt = "Hᴏᴏᴅ Aғᴛᴇʀɴᴏᴏɴ 🌓" 
         elif curr_time < 21:
-            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
+            gtxt = "Gᴏᴏᴅ Eᴠᴇɴɪɴɢ 🌘"
         else:
-            gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
+            gtxt = "Gᴏᴏᴅ Nɪɢʜᴛ 🌑"
         try:
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1474,10 +1474,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
+            InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
             InlineKeyboardButton ('🪔 sᴏᴜʀᴄᴇ', callback_data='source'),
         ],[
-            InlineKeyboardButton('ᴅᴏɴᴀᴛɪᴏɴ 💰', callback_data='donation'), 
+            InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ Dᴇɢᴀ Kʏᴀ💰', callback_data='donation'), 
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1525,7 +1525,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ᴅʀᴇᴀᴍxʙᴏᴛᴢ 📜', url='https://github.com/DreamXBotz/Auto_Filter_Bot.git'),
+            InlineKeyboardButton('Rᴋ2xBᴏᴛᴢ 📜', url='https://t.me/Rk2xBotz'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1962,7 +1962,7 @@ async def advantage_spell_chok(client, message):
     if not movies:
         google = search.replace(" ", "+")
         button = [[InlineKeyboardButton(
-            "🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")]]
+            "🔍 Pᴀʜʟᴇ Gᴏɢɢʟᴇ Pᴀʀ Pᴛᴀ Kᴀʀ Sᴘᴇʟʟɪɴɢ Sᴀʜɪ Hᴀɪ 🔍", url=f"https://www.google.com/search?q={google}")]]
         k = await message.reply_text(text=script.I_CUDNT.format(search), reply_markup=InlineKeyboardMarkup(button))
         await asyncio.sleep(60)
         await k.delete()
