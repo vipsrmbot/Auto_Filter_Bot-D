@@ -218,25 +218,22 @@ Nᴀᴍᴇ : {}
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
     CAPTION = """⚡<b>File uploaded by [Rk2xBotz™](https://t.me/rk2xbotz)</b>⚡
-𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚:<blockquote><b><a>{file_name}</a></b></blockquote>
-<b>ᒍOIᑎ : <a>@Rk2xBotz</a></b>
-
+<blockquote>𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚•<b><a>{file_name}</a></b></blockquote>
+<b>ᴊᴏɪɴ : <a>@Rk2xBotz</a></b>
 <blockquote>𝙐𝙨𝙚 𝙑𝙇𝘾 𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙓𝙥𝙡𝙖𝙮𝙚𝙧 / 𝙈𝙓 𝙋𝙡𝙖𝙮𝙚𝙧 𝙏𝙤 𝙒𝙖𝙩𝙘𝙝 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤 𝙁𝙞𝙡𝙚</blockquote>"""
-
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
-<blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
+    MOVIE_UPDATE_NOTIFY_TXT = """<a href={poster_url}>📥</a><blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
+
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 
-🎭<b>ɢᴇɴʀᴇs : {genres}</b>
 📺 <b>ᴏᴛᴛ        : {ott}</b>
+
 🎞️ <b>ǫᴜᴀʟɪᴛʏ : {quality}</b>
 🎧 <b>ᴀᴜᴅɪᴏ    : {language}</b>
-🔥 <b>ʀᴀᴛɪɴɢ   : {rating}</b>
+🔥 <b>ʀᴀᴛɪɴɢ   : {rating}/10</b>
 {episodes}
 
 <blockquote><b>Uploaded By – @Rk2xBotz</b></blockquote>
-
 🔍 <b><a href="https://t.me/Rk2x_Request">♻️Movie Search Group ♻️</a></b>
 """
 
