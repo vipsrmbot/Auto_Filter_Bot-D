@@ -224,21 +224,21 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
-
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+<blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
 
 
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
+
+🎭<b>ɢᴇɴʀᴇs : {genres}</b>
+📺 <b>ᴏᴛᴛ        : {ott}</b>
+🎞️ <b>ǫᴜᴀʟɪᴛʏ : {quality}</b>
+🎧 <b>ᴀᴜᴅɪᴏ    : {language}</b>
+🔥 <b>ʀᴀᴛɪɴɢ   : {rating}</b>
 {episodes}
-</blockquote>
 
+<blockquote><b>Uploaded By – @Rk2xBotz</b></blockquote>
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
+🔍 <b><a href="https://t.me/Rk2x_Request">♻️Movie Search Group ♻️</a></b>
 """
 
 
