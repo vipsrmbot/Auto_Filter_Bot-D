@@ -226,9 +226,9 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 
+🎭<b>ɢᴇɴʀᴇs : {genres}</b>
 📺 <b>ᴏᴛᴛ        : {ott}</b>
 🎞️ <b>ǫᴜᴀʟɪᴛʏ : {quality}</b>
-
 🎧 <b>ᴀᴜᴅɪᴏ    : {language}</b>
 🔥 <b>ʀᴀᴛɪɴɢ   : {rating}/10</b>
 {episodes}
