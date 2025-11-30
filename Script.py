@@ -222,13 +222,13 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <b>ᴊᴏɪɴ : <a>@Rk2xBotz</a></b>
 <blockquote>𝙐𝙨𝙚 𝙑𝙇𝘾 𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙓𝙥𝙡𝙖𝙮𝙚𝙧 / 𝙈𝙓 𝙋𝙡𝙖𝙮𝙚𝙧 𝙏𝙤 𝙒𝙖𝙩𝙘𝙝 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤 𝙁𝙞𝙡𝙚</blockquote>"""
     
-    MOVIE_UPDATE_NOTIFY_TXT = """<a href={poster_url}>📥</a><blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
+    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
 
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 
 📺 <b>ᴏᴛᴛ        : {ott}</b>
-
 🎞️ <b>ǫᴜᴀʟɪᴛʏ : {quality}</b>
+
 🎧 <b>ᴀᴜᴅɪᴏ    : {language}</b>
 🔥 <b>ʀᴀᴛɪɴɢ   : {rating}/10</b>
 {episodes}
