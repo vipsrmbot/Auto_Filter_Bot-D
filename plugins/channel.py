@@ -319,13 +319,13 @@ async def send_movie_update(bot, base_name):
             text = generate_movie_message(movie_doc, base_name)
             buttons = InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    'ɢᴇᴛ ғɪʟᴇs',
-                    url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
+                    '♻️Movie Search Group ♻️',
+                    url=f"https://t.me/Rk2x_Request"
                 )
             ]])
 
             if movie_doc.get("poster_url") and not LINK_PREVIEW:
-                resized_poster = await fetch_image(movie_doc["poster_url"], size=(2560, 1440) if LANDSCAPE_POSTER and TMDB_POSTER and not error_tmdb else (853, 1280))
+                resized_poster = await fetch_image(movie_doc["poster_url"], size=(800, 1365) if LANDSCAPE_POSTER and TMDB_POSTER and not error_tmdb else (768, 1365))
                 msg = await bot.send_photo(
                     chat_id=MOVIE_UPDATE_CHANNEL,
                     photo=resized_poster,
@@ -368,8 +368,8 @@ async def update_movie_message(bot, base_name):
         text = generate_movie_message(movie_doc, base_name)
         buttons = InlineKeyboardMarkup([[
             InlineKeyboardButton(
-                'ɢᴇᴛ ғɪʟᴇs',
-                url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
+                '♻️Movie Search Group ♻️',
+                url=f"https://t.me/Rk2x_Request"
             )
         ]])
 
