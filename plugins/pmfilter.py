@@ -1410,7 +1410,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton(' Hᴇʟᴘ 📢', callback_data='help'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ 📖', callback_data='about')
                 ],[
-                    InlineKeyboardButton(⚡ᴍᴏᴠɪᴇs/ᴡᴇʙ ʀᴇǫᴜᴇsᴛ✨', callback_data='GRP_LNK'),
+                    InlineKeyboardButton('⚡ᴍᴏᴠɪᴇs/ᴡᴇʙ ʀᴇǫᴜᴇsᴛ✨', callback_data="GRP_LNK"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
