@@ -332,7 +332,7 @@ async def advantage_spoll_choker(bot, query):
             except Exception as e:
                 print(f"Error In Spol - {e}   Make Sure Bot Admin BIN CHANNEL")
         btn = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔰Cʟɪᴄᴋ ʜᴇʀᴇ & ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ🔰", url="https://t.me/NotRk2xBot")]])
+            [[InlineKeyboardButton("🔰Cʟɪᴄᴋ ʜᴇʀᴇ & ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ🔰", url=OWNER_LNK)]])
         k = await query.message.edit(script.MVE_NT_FND, reply_markup=btn)
         await asyncio.sleep(10)
         await k.delete()
@@ -1410,7 +1410,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton(' Hᴇʟᴘ 📢', callback_data='help'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ 📖', callback_data='about')
                 ],[
-                    InlineKeyboardButton(⚡ᴍᴏᴠɪᴇs/ᴡᴇʙ ʀᴇǫᴜᴇsᴛ✨', callback_data="https://t.me/Rk2x_Request"),
+                    InlineKeyboardButton(⚡ᴍᴏᴠɪᴇs/ᴡᴇʙ ʀᴇǫᴜᴇsᴛ✨', callback_data='GRP_LNK'),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
