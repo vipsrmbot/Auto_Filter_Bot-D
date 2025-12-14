@@ -217,16 +217,17 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><u>⚠️DELETING IN 5minutes⚠️ғᴏʀᴡᴀʀᴅ ᴀɴᴅ sᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</u></b>
+    CAPTION = """<b><u>⚠️DELETING IN 5 minutes⚠️ ғᴏʀᴡᴀʀᴅ ᴀɴᴅ sᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</u></b>
+    
 ⚡<b>File uploaded by [Rk2xBotz™](https://t.me/rk2xbotz)</b>⚡
 
 𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚:<code><a>{file_name}</a></code>
 ━━━━━━━━━━━━━━━━━━━━
-<b>📢 Latest Uploads:</b> <b><a href="https://t.me/+q4_4N_gRvfo4OGM1">Rk2xBotzu</a></b>
-<b>🤖 Bot Updates:</b> <b><a href="https://t.me/Rk2xBotz">Rk2xBotz</a></b>
+<b>➠📢 𝙻𝚊𝚝𝚎𝚜𝚝 𝚄𝚙𝚕𝚘𝚊𝚍𝚜:</b> <b><a href="https://t.me/+q4_4N_gRvfo4OGM1">Rk2xBotzu</a></b>
+<b>➠🤖 𝙱𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎𝚜:</b> <b><a href="https://t.me/Rk2xBotz">Rk2xBotz</a></b>
 <blockquote><u>𝙐𝙨𝙚 𝙑𝙇𝘾 𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙓𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙈𝙓 𝙋𝙡𝙖𝙮𝙚𝙧 𝙏𝙤 𝙒𝙖𝙩𝙘𝙝 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤 𝙁𝙞𝙡𝙚</u></blockquote>"""
     
-    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote><b>#ɴᴇᴡ_ғɪʟᴇ_ᴀᴅᴅᴇᴅ ✅</b></blockquote>
+    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote><b>#NEW_FILE_ADDED✅</b></blockquote>
 
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 ━━━━━━━━━━━━━━━━━━━━
@@ -237,9 +238,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ➥🔥 <b>ʀᴀᴛɪɴɢ  : {rating}/10</b>
 {episodes}
 ━━━━━━━━━━━━━━━━━━━━
-<blockquote><b>Uploaded By – @Rk2xBotz</b></blockquote>
-🔍 <b><a href="https://t.me/Rk2x_Request">♻️Movie Search Group ♻️</a></b>
-"""
+<blockquote><b>𝙿𝚘𝚠𝚎𝚛 𝙱𝚢 – @Rk2xBotz</b></blockquote>"""
 
 
     IMDB_TEMPLATE_TXT = """
