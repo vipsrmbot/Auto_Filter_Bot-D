@@ -222,17 +222,18 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ⚡<b>File uploaded by [Rk2xBotz™](https://t.me/rk2xbotz)</b>⚡
 
 𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚:<code><a>{file_name}</a></code>
-━━━━━━━━━━━━━━━━━━━━
+
 <b>➠📢 𝙻𝚊𝚝𝚎𝚜𝚝 𝚄𝚙𝚕𝚘𝚊𝚍𝚜:</b> <b><a href="https://t.me/+q4_4N_gRvfo4OGM1">Rk2xBotzu</a></b>
 <b>➠🤖 𝙱𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎𝚜:</b> <b><a href="https://t.me/Rk2xBotz">Rk2xBotz</a></b>
 <blockquote><u>𝙐𝙨𝙚 𝙑𝙇𝘾 𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙓𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙈𝙓 𝙋𝙡𝙖𝙮𝙚𝙧 𝙏𝙤 𝙒𝙖𝙩𝙘𝙝 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤 𝙁𝙞𝙡𝙚</u></blockquote>"""
     
-    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote><b>#NEW_{tag}_ADDED✅</b></blockquote>
+    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote></b><a href={poster_url}>📥</a><a>#NEW_{tag}_ADDED✅</a></b></blockquote>
 
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 ━━━━━━━━━━━━━━━━━━━━
 ➥🎭<b>ɢᴇɴʀᴇs  : {genres}</b>
 ➥📺 <b>ᴏᴛᴛ    : {ott}</b>
+
 ➥🎞️ <b>ǫᴜᴀʟɪᴛʏ : {quality}</b>
 ➥🎧 <b>ᴀᴜᴅɪᴏ   : {language}</b>
 ➥🔥 <b>ʀᴀᴛɪɴɢ  : {rating}/10</b>
