@@ -139,7 +139,7 @@ def extract_media_info(filename: str, caption: str):
     unified = f"{caption_clean} {filename.lower()}".strip()
 
     season = episode = year = None
-    tag = "#MOVIE"
+    tag = "MOVIE"
     processed_raw = base_raw = filename
     quality = get_qualities(caption_clean) or get_qualities(filename.lower()) or "N/A"
     ott_platform = extract_ott_platform(f"{filename} {caption_clean}")
@@ -149,7 +149,7 @@ def extract_media_info(filename: str, caption: str):
 
     season, episode = extract_season_episode(filename)
     if season is not None:
-        tag = "#SERIES"
+        tag = "SERIES"
         if m := (RANGE_REGEX.search(filename) or SINGLE_REGEX.search(filename) or NAMED_REGEX.search(filename) or EP_ONLY_RANGE.search(filename)):
             match_str = m.group(0)
             start_idx = filename.lower().find(match_str.lower())
@@ -441,7 +441,7 @@ def generate_movie_message(movie_doc, base_name):
             episode = file["episode"]
             episodes_by_season[season].add(episode)
 
-    primary_tag = "#SERIES" if "#SERIES" in all_tags else "#MOVIE"
+    primary_tag = "SERIES" if "SERIES" in all_tags else "MOVIE"
     epi_block = ""
     if episodes_by_season:
         episode_lines = []
