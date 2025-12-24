@@ -227,7 +227,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <b>➠🤖 𝙱𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎𝚜:</b> <b><a href="https://t.me/Rk2xBotz">Rk2xBotz</a></b>
 <blockquote><u>𝙐𝙨𝙚 𝙑𝙇𝘾 𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙓𝙋𝙡𝙖𝙮𝙚𝙧 / 𝙈𝙓 𝙋𝙡𝙖𝙮𝙚𝙧 𝙏𝙤 𝙒𝙖𝙩𝙘𝙝 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤 𝙁𝙞𝙡𝙚</u></blockquote>"""
     
-    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote></b><a href={poster_url}>📩NEW_{tag}_ADDED✅</a></b></blockquote>
+    MOVIE_UPDATE_NOTIFY_TXT = """<blockquote><b><a href={poster_url}>📩NEW_{tag}_ADDED✅</a></b></blockquote>
 
 🫥 <b><code>{filename}</code></b> ⿻  | ⭐ <b><a href="{imdb_url}">ɪᴍᴅʙ ɪɴғᴏ</a></b>
 ━━━━━━━━━━━━━━━━━━━━
